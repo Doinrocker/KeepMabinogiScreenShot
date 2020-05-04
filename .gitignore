@@ -1,0 +1,8 @@
+Debug
+Release
+Temp
+.vs
+*.opendb
+*.db
+*.user
+*.Cache

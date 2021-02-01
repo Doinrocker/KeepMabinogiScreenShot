@@ -71,7 +71,7 @@ namespace KeepMabinogiScreenShot
                 {
                     var name = file.name;
                     var number = startNumber + file.index;
-                    var destFileName = $"{this.targetPath}/{now}{number:0000}.jpg";
+                    var destFileName = $"{this.targetPath}/{now}{number:0000}.png";
                     File.Move(name, destFileName);
                 }
             }
